@@ -1,3 +1,4 @@
+<!-- YES IM RETARDED AND I HAVE EVERYTHING IN A SINGLE FILE TY -->
 <!doctype html>
 <html>
   <head>
@@ -11,48 +12,52 @@
         height: 30px;
       }
       .heading {
-        font-size: 11px;
-        margin: 2px;
+        width: 800px;
+        font-size: 12px;
+        margin: 2px auto;
       }
       #shipsNumber {
-        width: 30%;
+        width: 300px;
         margin: 3px auto;
       }
       #buttons {
-        width: 30%;
+        width: 230px;
         margin: 3px auto;
       }
       #paste {
-        width: 30%;
+        width: 340px;
         margin: 5px auto;
       }
       .clickableContainer {
         background-color: rgb(228, 228, 228);
-        margin: 5px auto;
-        padding: 3px;
+        margin: 10px auto;
+        padding: 6px;
         font-size: 10px;
-        width: 40%;
+        width: 400px;
+        -webkit-box-shadow: 3px 3px 6px -3px rgba(0,0,0,0.68);
+        -moz-box-shadow: 3px 3px 6px -3px rgba(0,0,0,0.68);
+        box-shadow: 3px 3px 6px -3px rgba(0,0,0,0.68);
       }
       .clickableContainer p{
         margin: 1px;
       }
       .clickableContainer:hover {
         cursor: pointer;
-        background-color: rgb(175, 175, 175);
+        background-color: rgb(206, 206, 206);
       }
       #footer {
-        font-size: 11px;
+        font-size: 12px;
         color:  rgb(190, 190, 190);
-        width: 33%;
-        margin: 8px auto;
+        width: 340px;
+        margin: 10px auto;
       }
     </style>
   </head>
   <body>
     <div class="container">
-      <p class="heading">Paste T3 fit (or any other vessel class fit), press button and get your /giveitem command list. Then just click on container with /giveitems (or fit name) to copy that commands list to clipboard. All fit items are divided into several containers because game chats support only ~1000symbols, so you can't spawn everything at once.</p>
+      <p class="heading">Paste T3 fit (or any other vessel class fit), press button and get your /giveitem commands list. Then just click on container with /giveitems (or fit name) to copy that commands list to clipboard. All fit items are divided into several containers because game chats support only ~1000symbols, so you can't spawn everything at once.</p>
       <div id="shipsNumber">
-          <span style="font-size: 12px">Number of ships: </span>
+          <span style="font-size: 12px">Number of ships needed: </span>
           <input type="number" id="numberOfShips" value="4" />
       </div>
       <div id="buttons">
